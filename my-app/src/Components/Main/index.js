@@ -13,7 +13,9 @@ import React from "react";
   // - content prop
 
 
-export default function Main(){
+export default function Main(props){
+    const data = props.info
+    console.log(data)
     return(
         <div className="main">
             <div className="info-container">

@@ -3,6 +3,7 @@ import Header from '../Header';
 import Nav from '../Nav';
 import Main from '../Main';
 import Footer from '../Footer';
+import {useState, useEffect} from "react";
 
 //Header component - 
 //contains logo, title and help link 
@@ -27,14 +28,28 @@ import Footer from '../Footer';
   // copyright info 
   // socials
 
+  //States are only going to change once according to what is submitted
+  //props for title 
+  //props for content 
+
 function App() {
+ const [info, setInfo] = useState([])
+
+   useEffect(() => {//only run when the variable week 1 changes
+      async function updateWeek(){
+      const response = await fetch(`http://localhost:3000/week1`)
+      const data = await response.json()
+      setInfo(data.payload)
+    }
+    updateWeek();
+  }, [])
+
+
   return (
     <div className="App">
       <Header />
       <Nav />
-      <Main />
-      <Main />
-      <Main />
+      <Main info={info}/>
       <Footer />
     </div>
   );
