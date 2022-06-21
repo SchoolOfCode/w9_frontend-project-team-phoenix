@@ -15,7 +15,6 @@ import List from "../List";
 
 
 export default function Main({ info }){
-    console.log(info, "info")
    return (
        info.map((e) => {
         return (<List data={e}/>)
