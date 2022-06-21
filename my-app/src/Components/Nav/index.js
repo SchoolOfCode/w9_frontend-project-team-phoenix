@@ -3,12 +3,12 @@ import React from "react";
 //Nav Component -
 //contains dropdown and submit button 
 
-export default function Nav(){
+export default function Nav(props){
     return(
         <div>
         <div className="week-container">
             <div className="category-form">
-            <form>
+            <form onSubmit={props.handleSubmit}>
             <label className="category-select" >Week Number: </label>
 
           <select className="select-week" name="week" id="week">

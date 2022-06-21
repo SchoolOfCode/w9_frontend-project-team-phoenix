@@ -1,4 +1,5 @@
 import React from "react";
+import List from "../List";
 
 //Main - 
 //contain docs container 
@@ -13,16 +14,16 @@ import React from "react";
   // - content prop
 
 
-export default function Main(props){
-    const data = props.info
-    console.log(data)
-    return(
-        <div className="main">
-            <div className="info-container">
-                <h2 className="section-heading">Docs</h2> 
-                <p className="docs-content">content</p>
-            </div>
-        </div>
-    )
+export default function Main({ info }){
+    console.log(info, "info")
+   return (
+       info.map((e) => {
+        return (<List data={e}/>)
+    })
+   )
+            
+            // <h2>{e.title}</h2>
+    
+   
 }
 //conditionally render docs || contact info || Workshop etc

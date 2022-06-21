@@ -34,21 +34,28 @@ import {useState, useEffect} from "react";
 
 function App() {
  const [info, setInfo] = useState([])
+ const [id, setId] = useState(0)
+ 
+ useEffect(() => {//only run when the variable week 1 changes
+  async function updateWeek(){
+  const response = await fetch(`http://localhost:3000/week1`)
+  const data = await response.json()
+  setInfo(data.payload)
+}
+updateWeek();
+}, [id])
 
-   useEffect(() => {//only run when the variable week 1 changes
-      async function updateWeek(){
-      const response = await fetch(`http://localhost:3000/week1`)
-      const data = await response.json()
-      setInfo(data.payload)
-    }
-    updateWeek();
-  }, [])
+ function handleSubmit(e){
+  e.preventDefault()
+  const id = Math.floor(Math.random() * 100)
+  setId(id)
+}
 
 
   return (
     <div className="App">
       <Header />
-      <Nav />
+      <Nav handleSubmit={handleSubmit}/>
       <Main info={info}/>
       <Footer />
     </div>
