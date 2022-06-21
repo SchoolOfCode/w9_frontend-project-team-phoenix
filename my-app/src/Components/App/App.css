@@ -6,16 +6,26 @@
 #F96E46
 */ 
 
-.App {
-    background-color: white;
-}
-
+:root {                                      
+    --background-colour: #432597;
+    --content-text-colour: #432597;
+    --button-colour: #9E0031;
+    --info-container-colour: #F5E6E8;
+    --light-colour: #F5E6E8;
+    --container-link-colour: #F96E46;
+    --instructions-colour: #F96E46;
+    --link-colour: #00E8FC;
+    --header-size: 24px;
+    --main-text-size: 18px;                   
+    --border-radius: 10px;
+  }
+  
 body {
-    background: #432597;
+    background: var(--background-colour);
 }
 
 .header-container {
-    background: #432597;
+    background: var(--background-colour);
     display: flex;
     flex-direction: column; 
     position:fixed;    
@@ -40,9 +50,9 @@ body {
 .header {
     display: flex;
     height: 45px;
-    background-color: white;
-    border-radius: 10px;
-    color: #432597;
+    background-color: var(--light-colour);
+    border-radius: 10px;  
+    color: var(--content-text-colour);
     margin-top: 20px;
     margin-right: -20px;
     margin-left: -45px;
@@ -54,7 +64,7 @@ body {
 }
 
 .help-link {
-    color:  #00E8FC;
+    color:  var(--link-colour);
     margin-top: 50px;
     height: 40px;
     margin-right: 20px;
@@ -63,8 +73,8 @@ body {
 
 .instructions {
     display: flex;
-    justify-content: center; 
-    color: #F96E46;
+    justify-content: center;     
+    color: var(--instructions-colour);
     align-items: center;
     font-weight: 100;
 }
@@ -73,14 +83,13 @@ body {
     color: black;
     margin-top: 50px;
     margin-right: 20px;
-    padding: 0px;
     font-size: 25px;
     text-decoration: none;
 }
 
 .category-select {
     font-size: 20px;
-    color: white;
+    color: var(--light-colour);
 }
 
 .select-week {
@@ -93,9 +102,9 @@ body {
     padding: 10px 20px 10px 20px;
     border-radius: 15px;
     margin-left: 10px;
-    background-color: #9E0031;
-    color: white;
-    border: 1px solid white;
+    background-color: var(--button-colour);
+    color: var(--light-colour);
+    border: 1px solid var(--light-colour);
     cursor:pointer;
 }
 
@@ -119,7 +128,7 @@ body {
     flex-direction: column;
     margin-top: 200px;
     padding: 30px;
-    background-color: #F5E6E8;
+    background-color: var(--info-container-colour);
     border-radius: 25px;
     width: 100%;
     margin-bottom: -210px;
@@ -128,7 +137,7 @@ body {
 .section-heading {
     margin-top: -20px;
     font-size: 28px;
-    color: #432597;
+    color: var(--content-text-colour);
 }
 
 .docs-content-title { 
@@ -142,14 +151,14 @@ body {
 }
 
 .docs-content { 
-    color: #432597;
+    color: var(--content-text-colour);
     font-size: 15px;    
 }
 
 .docs-link {
     text-decoration: none;
     font-weight: bold;
-    color: #F96E46;
+    color: var(--container-link-colour);
 }
 
 .footer-container {
@@ -172,27 +181,24 @@ body {
 .copyright {
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: var(--light-colour);
 }
 
 a {
-    color: #00E8FC;
+    color: var(--link-colour);
     text-decoration: none;
 }
 
 .feedback-link {
     margin-right: 50px;
     padding: 10px;
-    color: white;
-    border: 1px solid white;
+    color: var(--light-colour);
+    border: 1px solid var(--light-colour);
     border-radius: 5px;
 }
 
-.feedback-link:hover {
-    color:red;
-}
 
 .social {
     margin-left: 20px;
-    color: #00E8FC;
+    color: var(--link-colour);
 }

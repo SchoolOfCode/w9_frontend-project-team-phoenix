@@ -35,7 +35,7 @@ import {useState, useEffect} from "react";
 function App() {
  const [info, setInfo] = useState([])
  const [id, setId] = useState(0)
- const [week, setWeek] = useState("")
+ const [week, setWeek] = useState("week1")
 
  
  useEffect(() => {//only run when the variable week 1 changes
