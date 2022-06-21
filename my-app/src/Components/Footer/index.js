@@ -3,8 +3,11 @@ import React from "react";
 export default function Footer(){
     return(
         <>
-        <div>Copyright text</div>
-        <div>Feedback?</div>
+        <footer>
+            <p>Copyright</p>
+            <div>Social media</div>
+            <p><a href="https://en.wikipedia.org/wiki/Feedback">feedback</a></p>
+        </footer>
         </>
     )
 }

@@ -10,7 +10,7 @@ export default function Header(){
         <>
         <img src="../../Assets/PhoenixLogo.png" alt="Logo"></img>
         <h1>School Of Code - Help the camper</h1>
-        <div>help?</div>
+        <a href="https://www.w3schools.com">Help?</a>
         </>
     )
 }
