@@ -1,126 +1,198 @@
+/* COLOURS
+#F5E6E8
+#9E0031
+#00E8FC
+#432597
+#F96E46
+*/ 
+
 .App {
-    background-color: #432597;
-    height: 100vh;
-    width: 100vw;
-  }
-
-  body{
-    background-color:  #432597;
-  }
-
-  /* COLOURS
-  #F5E6E8
-  #9E0031
-  #00E8FC
-  #432597
-  #F96E46
-  */
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    height: auto;    
+    background-color: white;
 }
 
-.logo {
-    margin-top: 50px;
-    margin-left: 50px;
+body {
+    background: #432597;
+}
+
+.header-container {
+    background: #432597;
+    display: flex;
+    flex-direction: column; 
+    position:fixed;    
+    width: 100% 
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {    
     width: 120px;
     height: 100px;
+    margin-top: 45px;
+    margin-left: 45px;
 }
 
 .header {
     display: flex;
+    height: 45px;
     background-color: white;
     border-radius: 10px;
     color: #432597;
-    margin-top: 80px;
-    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-right: -20px;
+    margin-left: -45px;
+    padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
+    box-shadow: 18px 11px 19px 1px rgba(0,0,0,0.32);
 }
 
 .help-link {
- color:  #00E8FC;
- padding: 50px;
- font-size: 25px;
+    color:  #00E8FC;
+    margin-top: 50px;
+    height: 40px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center; 
+    color: #F96E46;
+    align-items: center;
+    font-weight: 100;
 }
 
 .help-link:hover {
     color: black;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: 0px;
+    font-size: 25px;
     text-decoration: none;
-    padding: 50px;
+}
+
+.category-select {
+    font-size: 20px;
+    color: white;
+}
+
+.select-week {
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: #9E0031;
+    color: white;
+    border: 1px solid white;
+    cursor:pointer;
 }
 
 .week-container {
     display: flex;
     justify-content: center;
-    
     padding: 10px;
     font-size: 18px;
 }
 
-.category-select {
-    font-size: 20px;
-}
-
-.select-week {
-    
-    padding-right: 20px;
-}
-
-.submit-button {
-    padding: 5px;
-    border-radius: 5px;
-    margin-left: 10px;
-    background-color: #9E0031;
-    color: white;
-    border: 1px solid white;
-}
-
-.main {
+.main-container {
     display: flex;
-    flex-direction: row;
-    padding: 1%;
-    width: 95%;
-  
-    
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 50px; 
+    margin-bottom: 30px;  
 }
 
 .info-container {
-    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    padding: 30px;
     background-color: #F5E6E8;
-    border: 3px solid black;
     border-radius: 25px;
-    flex-grow: 2;
+    width: 100%;
+    margin-bottom: -210px;
 }
 
 .section-heading {
-    font-size: 20px;
+    margin-top: -20px;
+    font-size: 28px;
+    color: #432597;
+}
+
+.docs-content-title { 
+    margin-top: -20px;
+    font-size: 22px;    
+}
+
+.docs-content-name { 
+    margin-top: -50px;
+    font-size: 20px;    
 }
 
 .docs-content { 
-    font-size: 15px;
-    
+    color: #432597;
+    font-size: 15px;    
+}
+
+.docs-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #F96E46;
+}
+
+.footer-container {
+    margin-top: 95vh;  
+    width:100%;
+    height:50px;   
 }
 
 .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;        
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    background-color:  #432597;
-}
+  }
 
 .copyright {
-    background-color: rgb(205, 204, 204);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    color: #00E8FC;
+    text-decoration: none;
 }
 
 .feedback-link {
+    margin-right: 50px;
+    padding: 10px;
     color: white;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .feedback-link:hover {
     color:red;
+}
+
+.social {
+    margin-left: 20px;
+    color: #00E8FC;
 }

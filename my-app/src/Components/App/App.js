@@ -58,13 +58,18 @@ function handleChange(e){
    console.log(e.target.value, "target value")
   }
 
-
   return (
-    <div className="App">
-      <Header />
-      <Nav handleSubmit={handleSubmit} onchange={handleChange}/>
-      <Main info={info}/>
-      <Footer />
+    <div className="everything">
+      <div className="header-container">
+        <Header />
+        <Nav handleSubmit={handleSubmit} onchange={handleChange}/>
+      </div>
+        <div className="main-container">
+          <Main info={info}/>
+        </div>
+      <div className="footer-container">
+        <Footer />
+      </div>
     </div>
   );
 }
