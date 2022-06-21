@@ -15,12 +15,12 @@ import React from "react";
 
 export default function Main(){
     return(
-        <>
+        <div className="main">
             <div className="info-container">
                 <h2 className="section-heading">Docs</h2> 
                 <p className="docs-content">content</p>
             </div>
-        </>
+        </div>
     )
 }
 //conditionally render docs || contact info || Workshop etc

@@ -33,6 +33,8 @@ function App() {
       <Header />
       <Nav />
       <Main />
+      <Main />
+      <Main />
       <Footer />
     </div>
   );

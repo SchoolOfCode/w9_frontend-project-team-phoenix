@@ -7,10 +7,10 @@ import "../../Assets/PhoenixLogo.png";
 
 export default function Header(){
     return(
-        <>
-        <img src="../../Assets/PhoenixLogo.png" alt="Logo"></img>
-        <h1>School Of Code - Help the camper</h1>
-        <a href="https://www.w3schools.com">Help?</a>
-        </>
+        <div className="header-container">
+        <img className="logo" src="../../Assets/PhoenixLogo.png" alt="Logo"></img>
+        <h1 className="header">School Of Code - Help the camper</h1>
+        <a className="help-link"href="https://www.w3schools.com">Help?</a>
+        </div>
     )
 }
