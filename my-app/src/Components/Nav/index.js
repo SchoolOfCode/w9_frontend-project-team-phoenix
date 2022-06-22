@@ -11,7 +11,7 @@ export default function Nav({handleSubmit, onchange}){
             <form onSubmit={handleSubmit}>
               <label className="category-select" >Please select the Week: </label>
                 <select className="select-week" name="week" id="week" onChange={onchange}>
-                  <option value="week1">Week 1</option>
+                  <option value="week1">Week 1 - intro to the School Of Code Way</option>
                   <option value="week2">Week 2</option>
                   <option value="week3">Week 3</option>
                   <option value="week4">Week 4</option>
