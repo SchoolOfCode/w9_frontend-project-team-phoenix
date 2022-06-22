@@ -8,7 +8,7 @@ export default function Contact(){
         <>
             <Header />
             <div className="contact-header">
-                <p className="contact-welcome">Welcome to the School of Code Bootcamper Assistant <strong>Contact Page</strong></p>
+                <p className="contact-welcome">Welcome to the Bootcamper Assistant <strong>Contact Page</strong></p>
             </div>
             <div className="contact-text">
                 <p>School of Code offers free intensive and flexible coding courses open to applicants of all backgrounds.</p>
@@ -37,8 +37,8 @@ export default function Contact(){
                     </div>
                 </div>
             </div>
-            <div className="contact-text">
-                <p>Remote Learning!<p></p>
+            <div className="contact-text-2nd">
+                <p><strong>Remote Learning!</strong></p><p>
                 Covid-19 hit us half way through our third bootcamp, and we had to immediately learn the ins and outs of learning remotely.
 
                 We spent the time exploring how to do it best, and we are now offering fully remote and blended courses.

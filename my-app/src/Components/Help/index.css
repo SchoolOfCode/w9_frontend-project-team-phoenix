@@ -1,6 +1,7 @@
 h1 {
+    margin-top: 0px;
     text-align: center;
-    color: white;
+    color: var(--link-colour);
     font-size: 40px
 }
 
@@ -9,10 +10,10 @@ h1 {
 }
 
 .faq-question {
-    color: white;
+    color: var(--link-colour);
     cursor: pointer;
     padding: 30px 20px;
-    width: 60%;
+    width: 80%;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -20,9 +21,16 @@ h1 {
 }
 
 .faqbody {
+    background-color: rgba(67, 51, 204, 0.55);
+    padding: 10px;
     color: white;
     margin: auto;
     padding: auto;
     width: 50%;
-    font-size: 20px
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 18px 11px 19px 1px rgba(0,0,0,0.32);
 }
+
