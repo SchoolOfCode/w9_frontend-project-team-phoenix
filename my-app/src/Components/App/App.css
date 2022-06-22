@@ -7,7 +7,7 @@
 */ 
 
 :root {                                      
-    --background-colour: #432597;
+    --background-colour:  #432597;;
     --content-text-colour: #432597;
     --button-colour: #9E0031;
     --info-container-colour: #F5E6E8;
@@ -15,16 +15,13 @@
     --container-link-colour: #F96E46;
     --instructions-colour: #F96E46;
     --link-colour: #00E8FC;
-    --header-size: 24px;
-    --main-text-size: 18px;                   
-    --border-radius: 10px;
   }
   
 body {
     background: var(--background-colour);
 }
 
-.header-container {
+.headercontainer** {
     background: var(--background-colour);
     display: flex;
     flex-direction: column; 
@@ -32,12 +29,12 @@ body {
     width: 100% 
 }
 
-.header-content {
+.header-content {    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
+    height: 180px;
 }
 
 .logo {    
@@ -53,7 +50,7 @@ body {
     background-color: var(--light-colour);
     border-radius: 10px;  
     color: var(--content-text-colour);
-    margin-top: 20px;
+    margin-top: 60px;
     margin-right: -20px;
     margin-left: -45px;
     padding-bottom: 5px;
@@ -65,7 +62,7 @@ body {
 
 .help-link {
     color:  var(--link-colour);
-    margin-top: 50px;
+    margin-top: 60px;
     height: 40px;
     margin-right: 20px;
     font-size: 25px;
@@ -74,6 +71,7 @@ body {
 .instructions {
     display: flex;
     justify-content: center;     
+    margin-top: 10px;
     color: var(--instructions-colour);
     align-items: center;
     font-weight: 100;
@@ -126,12 +124,12 @@ body {
 .info-container {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 20px;
     padding: 30px;
     background-color: var(--info-container-colour);
     border-radius: 25px;
-    width: 100%;
-    margin-bottom: -210px;
+    width: 97%;
+    margin-bottom: -20px;
 }
 
 .section-heading {
@@ -162,7 +160,7 @@ body {
 }
 
 .footer-container {
-    margin-top: 95vh;  
+    margin-top: 25vh;  
     width:100%;
     height:50px;   
 }
@@ -180,7 +178,7 @@ body {
 
 .copyright {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 100;
     color: var(--light-colour);
 }
 

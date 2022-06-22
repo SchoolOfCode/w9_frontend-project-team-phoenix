@@ -59,15 +59,15 @@ function handleChange(e){
   }
 
   return (
-    <div className="everything">
-      <div className="header-container">
+    <div>
+      <div>
         <Header />
         <Nav handleSubmit={handleSubmit} onchange={handleChange}/>
       </div>
-        <div className="main-container">
+        <div>
           <Main info={info}/>
         </div>
-      <div className="footer-container">
+      <div>
         <Footer />
       </div>
     </div>

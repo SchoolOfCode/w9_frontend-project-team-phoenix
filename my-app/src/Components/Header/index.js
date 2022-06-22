@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../Assets/PhoenixLogo.png"; 
+import Nav from "../Nav"
 
 //Header contains phoenix logo - img 
 //Title 
@@ -7,7 +8,7 @@ import logo from "../../Assets/PhoenixLogo.png";
 
 export default function Header(){
     return(
-        <div className="top">
+        <div>
             <div className="header-content">
                 <img className="logo" src={logo} alt="Logo"></img>
                 <h1 className="header">Bootcamper Assistant Pro 1.1</h1>
@@ -18,7 +19,7 @@ export default function Header(){
             </div>
             <div className="instructions">
                 Please select the week you need help with
-            </div>
+            </div>            
         </div>
     )
 }
