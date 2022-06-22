@@ -23,4 +23,4 @@ export default function Header(){
     )
 }
 
-//<img src = {this.props.url} alt='something'/> 
+//<img src = {this.props.url} alt='something'/>  status
