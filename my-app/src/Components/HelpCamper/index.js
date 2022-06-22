@@ -13,7 +13,7 @@ import {useState, useEffect} from "react";
 export default function HelpCamper(){
     const [info, setInfo] = useState([])
  const [id, setId] = useState(0)
- const [week, setWeek] = useState("")
+ const [week, setWeek] = useState("week1")
 
  
  useEffect(() => {//only run when the variable week 1 changes
@@ -37,17 +37,12 @@ function handleChange(e){
   }
 
   return (
-    <div className="everything">
-      <div className="header-container">
+    <div>
         <Header />
         <Nav handleSubmit={handleSubmit} onchange={handleChange}/>
-      </div>
-        <div className="main-container">
-          <Main info={info}/>
-        </div>
-      <div className="footer-container">
+        <Main info={info}/>
         <Footer />
-      </div>
     </div>
+
   );
 }
