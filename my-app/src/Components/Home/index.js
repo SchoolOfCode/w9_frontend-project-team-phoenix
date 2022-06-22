@@ -10,7 +10,12 @@ export default function Home(){
     return(
         <>
         <Header />
-        <h1>Home Page</h1>
+        <h1>Welcome to Team Phoenix's Bootcamper Assistant tool!</h1>
+        <h2>We created this service to help our fellow bootcampers and ourselves by providing important information each week</h2>
+        <h3>To access our resources, please click the button below! Enjoy :)</h3>
+        <a href="http://localhost:3002/Campers">
+            <button>Click here for access</button>
+        </a>
         <Footer />
         </>
     )

@@ -14,13 +14,7 @@ export default function Header(){
                 <a className="help-link" href="http://localhost:3002/home">Home</a>
                 <a className="help-link" href="http://localhost:3002/Campers">Assistant</a>
                 <a className="help-link" href="http://localhost:3002/help">Need Help?</a>
-                <a className="help-link" href="http://localhost:3002/help">Contact</a>
-            </div>
-            <div className="instructions">
-                Welcome bootcamper. Need to find a resource to help with your issue? 
-            </div>
-            <div className="instructions">
-                Please select the week you need help with
+                <a className="help-link" href="http://localhost:3002/Contact">Contact</a>
             </div>
         </div>
     )
