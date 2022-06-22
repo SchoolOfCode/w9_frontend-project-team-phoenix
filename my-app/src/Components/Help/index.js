@@ -14,10 +14,10 @@ export default function Help(){
         </div>
 
         <div className="faq-question">
-            <h1 className="faq-heading">How to use this website?</h1>
+            <h1 className="faq-heading">How do I use this website?</h1>
 
             <div className="faqbody">
-                <p>First, you can click on the Assistant on the top of the page, and you will direct to another page which contains a dropdown list. Later, you can click on the list to select the week that you want to review. The webpage should display several resources for you. Have fun!</p>
+                <p>First, you click on the <strong>Assistant menu item</strong> on the top of the page, and you will take you to another page which contains a dropdown list. From that list you can select the week that you want to review. The webpage should display several resources for you. Have fun!</p>
             </div>
         </div>
         
@@ -41,7 +41,7 @@ export default function Help(){
             <h1 className="faq-heading">Do you offer Live help?</h1>
 
             <div className="faqbody">
-                <p>Currently, we don't offer Live Help as we are short of staff. Once we scale up our team, we will offer this service ASAP!</p>
+                <p>Currently, we don't offer Live Help. Once we scale up our team, we will offer this service. Check back for further details.</p>
             </div>
         </div>
         
