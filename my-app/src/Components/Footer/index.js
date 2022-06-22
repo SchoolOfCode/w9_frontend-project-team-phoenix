@@ -11,7 +11,7 @@ export default function Footer(){
                     <div className="linked-in"><a href="https://www.linkedin.com/school/school-of-code/">LinkedIn</a></div>
                 </div>
             <p className="copyright">© Copyright Phoenix Group 2022 | All rights reserved</p>
-            <p className="feedback-link"><a href="https://en.wikipedia.org/wiki/Feedback">feedback</a></p>
+            <p className="feedback-link"><a href="http://localhost:3002/feedback">feedback</a></p>
         </div>
         </div>
         </>

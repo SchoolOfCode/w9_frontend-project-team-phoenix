@@ -11,7 +11,10 @@ export default function Header(){
             <div className="header-content">
                 <img className="logo" src={logo} alt="Logo"></img>
                 <h1 className="header">Bootcamper Assistant Pro 1.1</h1>
-                <a className="help-link" href="https://www.w3schools.com">Need Help?</a>
+                <a className="help-link" href="http://localhost:3002/home">Home</a>
+                <a className="help-link" href="http://localhost:3002/Campers">Assistant</a>
+                <a className="help-link" href="http://localhost:3002/help">Need Help?</a>
+                <a className="help-link" href="http://localhost:3002/help">Contact</a>
             </div>
             <div className="instructions">
                 Welcome bootcamper. Need to find a resource to help with your issue? 
