@@ -2,14 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
+    
 }
 
 .form{
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: aliceblue;
+    border-style: solid;
+    border-radius: 7%;
+    border-color: aliceblue;
+    border: 2%;
+    padding: 5px;
+    background-color: #2676ac;
 }
 
 .name-container{
@@ -27,11 +35,11 @@
     justify-content:center;
     flex-direction: row;
     align-self:flex-end;
-    margin: 20px;
+    margin: 10px;
 }
 
 .feedback-textbox{
-    width: 100%;
+    width: 80%;
     height: 20em;
     margin: 1em auto;
     padding: 1em;
@@ -44,6 +52,12 @@
     color: white;
     font-size: 25px;
 }
+.button-container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
 
 .button{
         padding: 10px 20px 10px 20px;
@@ -53,9 +67,22 @@
         color: var(--light-colour);
         border: 1px solid var(--light-colour);
         cursor:pointer;
+        align-items: center;
 }
 
 .button:hover{
     color: #5E0035;
     text-decoration: none;
+}
+
+.refresh-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+    color: white;
 }
