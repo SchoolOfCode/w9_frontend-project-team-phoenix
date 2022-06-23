@@ -10,14 +10,14 @@ export default function Help(){
         <>
         <Header />
         <div className="contact-header">
-            <p className="contact-welcome">Welcome to the Bootcamper Assistant <strong>FAQ Page</strong></p>
+            <p className="contact-welcome">Welcome to the Bootcamp Buddy <strong>FAQ Page</strong></p>
         </div>
 
         <div className="faq-question">
             <h1 className="faq-heading">How do I use this website?</h1>
 
             <div className="faqbody">
-                <p>First, you click on the <strong>Assistant menu item</strong> on the top of the page, and you will take you to another page which contains a dropdown list. From that list you can select the week that you want to review. The webpage should display several resources for you. Have fun!</p>
+                <p>First, you click on the <strong>Ask Buddy menu item</strong> on the top of the page, and you will take you to another page which contains a dropdown list. From that list you can select the week that you want to review. The webpage should display several resources for you. Have fun!</p>
             </div>
         </div>
         

@@ -14,11 +14,11 @@ export default function Header(){
                 <a href="https://schoolofcode.com"><img className="soclogo" src={soclogo} alt="socLogo"></img></a>
             </div>
             <div className="header-box">
-                <h1 className="header">Bootcamper Assistant Pro 1.1</h1>
+                <h1 className="header">Bootcamp Buddy</h1>
             </div>
             <div className="links">
                 <a className="help-link" href="http://localhost:3002/home">Home</a>
-                <a className="help-link" href="http://localhost:3002/Campers">Assistant</a>
+                <a className="help-link" href="http://localhost:3002/Campers">Ask Buddy</a>
                 <a className="help-link" href="http://localhost:3002/help">Need Help?</a>
                 <a className="help-link" href="http://localhost:3002/Contact">Contact</a>
             </div>

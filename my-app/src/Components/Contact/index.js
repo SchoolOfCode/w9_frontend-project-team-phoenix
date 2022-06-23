@@ -8,7 +8,7 @@ export default function Contact(){
         <>
             <Header />
             <div className="contact-header">
-                <p className="contact-welcome">Welcome to the Bootcamper Assistant <strong>Contact Page</strong></p>
+                <p className="contact-welcome">Welcome to the Bootcamp Buddy <strong>Contact Page</strong></p>
             </div>
             <div className="contact-text">
                 <p>School of Code offers free intensive and flexible coding courses open to applicants of all backgrounds.</p>
