@@ -8,7 +8,7 @@ export default function Feedback(){
         <div className="feedback-container">
         <form className="form">
             <div className="name-container">
-            <p className="bootcamper-name">Bootcamper Name:</p>
+            <p className="bootcamper-name">Full Name:</p>
                 <input className="name"
                     type="text"
                     placeholder="first name"
@@ -33,7 +33,11 @@ export default function Feedback(){
 
     function onSubmit(){
        return (
-           setForm(<h1>Thank you for your feedback, we will get back to your shortly!</h1>)
+           setForm(
+            <div className="refresh-container">
+           <h1>Thank you for your feedback, we will get back to your shortly!</h1>
+           </div>
+           )
        )
     }
     
@@ -41,7 +45,9 @@ export default function Feedback(){
     <>
         <Header />
         {form}
+        <div className="button-container">
         <button onClick={onSubmit} className="button">Submit</button>
+        </div>
     </>
     )
 }

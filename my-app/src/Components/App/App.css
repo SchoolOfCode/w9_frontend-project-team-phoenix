@@ -7,14 +7,14 @@
 */ 
 
 :root {                                      
-    --background-colour: #432597;
-    --content-text-colour: #432597;
-    --button-colour: #9E0031;
-    --info-container-colour: #F5E6E8;
-    --light-colour: #F5E6E8;
-    --container-link-colour: #F96E46;
-    --instructions-colour: #F96E46;
-    --link-colour: #00E8FC;
+    --background-colour: #03045E;
+    --content-text-colour: #121212;
+    --button-colour: #30AC05;
+    --info-container-colour: #FFFFFF;
+    --light-colour: #FFFFFF;
+    --container-link-colour: #121212;
+    --instructions-colour: #121212;
+    --link-colour: #F87F25;
     --header-size: 24px;
     --main-text-size: 18px;                   
     --border-radius: 10px;
@@ -69,12 +69,13 @@ body {
 }
 
 .help-link {
-    color:  var(--container-link-colour);
+    color:  #FC9927;
     display: flex;
     justify-content: center;    
     font-size: 20px;
     padding: 10px;
     margin-right: 10px;
+    font-weight: bold;
 }
 
 .instructions {
@@ -159,7 +160,8 @@ body {
 .docs-link {
     text-decoration: none;
     font-weight: bold;
-    color: var(--container-link-colour);
+    color: var(--background-colour);
+    text-decoration: underline;
     font-size: 20px;
 }
 
@@ -169,7 +171,7 @@ body {
 }
 
 .footer {
-    background-color: var(--content-text-colour);
+    background-color: var(--background-colour);
     align-self: flex-end;
     padding-bottom: 10px;
     width: 100%;

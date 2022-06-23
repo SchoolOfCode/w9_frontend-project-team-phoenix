@@ -17,7 +17,7 @@
 }
 
 .h1-home-text{
-    color: var(--link-colour);
+    color: var(--light-colour);
     flex-direction: column;
     margin-bottom: 50px;
     font-weight: bold;
