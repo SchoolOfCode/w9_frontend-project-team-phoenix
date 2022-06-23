@@ -10,7 +10,7 @@ export default function Footer(){
                     <div className="twitter"><a href="https://twitter.com/theSchoolOfCode">Twitter</a></div>
                     <div className="linked-in"><a href="https://www.linkedin.com/school/school-of-code/">LinkedIn</a></div>
                 </div>
-            <p className="copyright">© Copyright Phoenix Group 2022 | All rights reserved</p>
+            <p className="copyright">© Copyright Phoenix Group 2022 | All rights reserved | In Association with School of Code</p>
             <p className="feedback-link"><a href="http://localhost:3002/feedback">feedback</a></p>
         </div>
         </div>

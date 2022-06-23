@@ -26,8 +26,7 @@ export default function List({ data }){
         }
     }
 
-/* 
-
+/*
 export default function List({ data }){
     if(data.contact_id === null){
         return(
@@ -56,6 +55,4 @@ export default function List({ data }){
     )
         }
 }
-
-
 */
