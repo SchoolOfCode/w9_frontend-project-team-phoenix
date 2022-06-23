@@ -7,6 +7,7 @@ export default function Feedback(){
     const [form, setForm] = useState(
         <div className="feedback-container">
         <form className="form">
+            <h1 className="h1-feedback">Bootcamp Buddy - Feedback Form</h1>
             <div className="name-container">
             <p className="bootcamper-name">Full Name:</p>
                 <input className="name"
@@ -20,7 +21,7 @@ export default function Feedback(){
             </div>
             <br></br>
             <br></br>
-            <p className="feedback">Feedback:</p>
+            <p className="feedback">Please leave your feedback below:</p>
             <textarea className="feedback-textbox"
                 placeholder="Comment"
                 name="comment"
