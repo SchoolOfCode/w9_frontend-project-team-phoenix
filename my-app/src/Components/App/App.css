@@ -112,6 +112,10 @@ body {
     cursor:pointer;
 }
 
+.submit-button:hover{
+    color: #121212;
+}
+
 .week-container {
     display: flex;
     justify-content: center;
