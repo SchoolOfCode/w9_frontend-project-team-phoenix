@@ -27,7 +27,7 @@ export default function Nav({handleSubmit, onchange}){
                   <option value="week8">Week 16 - Final Project Finish | COMING SOON!</option>
                   <option value="week8">Week 17 - Career Launchpad | COMING SOON!</option>
                 </select>
-                <input className="submit-button" type="submit" value="Submit"></input>
+                {/* <input className="submit-button" type="submit" value="Submit"></input> */}
               </form>
             </div>
           </div>

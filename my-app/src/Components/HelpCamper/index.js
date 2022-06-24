@@ -12,7 +12,7 @@ import {useState, useEffect} from "react";
 
 export default function HelpCamper(){
     const [info, setInfo] = useState([])
- const [id, setId] = useState(0)
+//  const [id, setId] = useState(0)
  const [week, setWeek] = useState("week1")
 
  
@@ -24,12 +24,12 @@ export default function HelpCamper(){
   setInfo(data.payload)
 }
 updateWeek();
-}, [id])
+}, [week])
 
  function handleSubmit(e){
   e.preventDefault()
-  const id = Math.floor(Math.random() * 100)
-  setId(id)
+//   const id = Math.floor(Math.random() * 100)
+//   setId(id)
 }
 function handleChange(e){
    setWeek(e.target.value)
