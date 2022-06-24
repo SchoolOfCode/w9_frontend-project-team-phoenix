@@ -208,6 +208,7 @@ a:hover {
     color: var(--light-colour);
     border: 1px solid var(--light-colour);
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .social {
