@@ -13,7 +13,7 @@ export default function Footer(){
                     <SocialMediaIconsReact borderColor="transpraent" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="transparent" url="https://www.linkedin.com/school/school-of-code/" size="38" />
                 </div>
             <p className="copyright">© Copyright Phoenix Group 2022 | All rights reserved | In Association with School of Code</p>
-            <p className="feedback-link"><a href="http://localhost:3002/feedback">feedback</a></p>
+            <p className="feedback-link"><a href={`/feedback`}>feedback</a></p>
         </div>
         </div>
         </>

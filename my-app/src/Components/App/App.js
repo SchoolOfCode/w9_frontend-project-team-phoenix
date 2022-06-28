@@ -8,40 +8,14 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect
 } from "react-router-dom";
 
-//Header component - 
-//contains logo, title and help link 
-
-//Nav Component -
-//contains dropdown and submit button 
-
-//Main - 
-//contain docs container 
-  // - heading prop 
-  // - content prop
-//contact information container 
-  // - heading prop 
-  // - contact image prop 
-  // - content prop 
-//workshop container 
-  // - Title prop
-  // - content prop
-
-//Footer -
-  // feedback link 
-  // copyright info 
-  // socials
-
-  //States are only going to change once according to what is submitted
-  //props for title 
-  //props for content 
 
 function App() {
 
   return (
+    // We have 5 “pages” handled by the router: a home page, a campers page, a feedback page, a help page and a contact page. As you click around on the different <Link>s, the router renders the matching <Route>.
     <>
     <Router>
     <Switch>

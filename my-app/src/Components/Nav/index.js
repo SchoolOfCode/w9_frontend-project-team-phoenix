@@ -3,12 +3,12 @@ import React from "react";
 //Nav Component -
 //contains dropdown and submit button 
 
-export default function Nav({handleSubmit, onchange}){
+export default function Nav({onchange}){
     return(
         <div>
           <div className="week-container">
             <div className="category-form">
-            <form onSubmit={handleSubmit}>
+            <form >
               <label className="category-select" ></label>
                 <select className="select-week" name="week" id="week" onChange={onchange}>
                   <option value="week1">Week 01 - Intro to the School of Code Way</option>

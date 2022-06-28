@@ -5,6 +5,7 @@ import "./feedback.css"
 export default function Feedback(){
 
     const [form, setForm] = useState(
+        //Sets original stae to the form
         <div className="feedback-container">
         <form className="form">
             <h1 className="h1-feedback">Bootcamp Buddy - Feedback Form</h1>
@@ -35,6 +36,7 @@ export default function Feedback(){
     function onSubmit(){
        return (
            setForm(
+            //re-renders page on submit to have following message
             <div className="refresh-container">
            <h1>Thank you for your feedback, we will get back to your shortly!</h1>
            </div>

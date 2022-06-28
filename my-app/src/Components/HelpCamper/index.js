@@ -1,7 +1,3 @@
-//header
-//Nav 
-//main 
-//footer
 
 import Header from '../Header';
 import Nav from '../Nav';
@@ -11,14 +7,14 @@ import {useState, useEffect} from "react";
 
 
 export default function HelpCamper(){
-    const [info, setInfo] = useState([])
-//  const [id, setId] = useState(0)
- const [week, setWeek] = useState("week1")
+  //All info from the fetch request will be saved in info state
+  const [info, setInfo] = useState([]) 
+  //initial state set to week 1 so page renders automatically with data
+  const [week, setWeek] = useState("week1")
 
  
- useEffect(() => {//only run when the variable week 1 changes
+ useEffect(() => {
   async function updateWeek(){
-  console.log(week)
   const response = await fetch(`http://localhost:3000/${week}`)
   const data = await response.json()
   setInfo(data.payload)
@@ -26,20 +22,14 @@ export default function HelpCamper(){
 updateWeek();
 }, [week])
 
- function handleSubmit(e){
-  e.preventDefault()
-//   const id = Math.floor(Math.random() * 100)
-//   setId(id)
-}
 function handleChange(e){
    setWeek(e.target.value)
-   console.log(e.target.value, "target value")
   }
 
   return (
     <div>
         <Header />
-        <Nav handleSubmit={handleSubmit} onchange={handleChange}/>
+        <Nav onchange={handleChange}/>
         <Main info={info}/>
         <Footer />
     </div>
