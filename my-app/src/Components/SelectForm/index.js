@@ -3,7 +3,7 @@ import React from "react";
 //Nav Component -
 //contains dropdown and submit button 
 
-export default function Nav({onchange}){
+export default function SelectForm({onchange}){
     return(
         <div>
           <div className="week-container">

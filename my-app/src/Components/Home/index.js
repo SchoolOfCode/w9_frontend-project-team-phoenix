@@ -1,12 +1,7 @@
-//On our home page we want our Header
-//Our text
 import Footer from "../Footer"
 import Header from "../Header"
 import "./index.css"
 import pic from "../../Assets/workshops.jpg"
-
-//Why we Created
-//How to use
 
 export default function Home(){
     return(
