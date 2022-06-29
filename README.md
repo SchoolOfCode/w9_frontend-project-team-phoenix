@@ -3,7 +3,7 @@ TEAM PHOENIX
 # Frontend Brief
 Create a frontend app that will improve the lives of boot campers.
 
-## What problem does our app solve?
+# What problem does our app solve?
 
 We asked ourselves the following 3 questions:
 
@@ -13,7 +13,7 @@ We asked ourselves the following 3 questions:
 
 Create a minimum viable product (MVP) showcasing an innovative full stack application which meets the user need you’ve identified
 
-## Features 
+# Features 
 
 Our project application included the following:
 
@@ -26,7 +26,7 @@ Our project application included the following:
 - FAQ page
 
 
-## Component Tree
+# Component Tree
 
 ### SelectForm Component -
 - Props - onchange function which comes from HelpCamper component
@@ -49,13 +49,13 @@ Our project application included the following:
 - Props - data (payload from fetch request) and comes from Resource selector
 
 
-## Environment Variables
+# Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
 `PORT=3002`
 
 The reason for this being we manually separated the port numbers our front and backend's were running on.
 
-### Libraries
+# Libraries
 - React
 - CSS
 - React Routes Library
@@ -63,12 +63,10 @@ The reason for this being we manually separated the port numbers our front and b
 - React Social icons 
 
 
-## Roadmap
+# Roadmap
 - Complete feedback form so it pushes to backend database
 
-##  About the team
-We are School of Code - Full Stack Software Development students
-## Authors
+# Authors
 - [@RussellVentura](https://www.github.com/russellventura)
 - [@AbdullahiMohamoud](https://github.com/Abdu11ahi)
 - [@KhulvimdaMall](https://github.com/KhullyMall)
