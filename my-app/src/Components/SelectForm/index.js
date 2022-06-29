@@ -3,10 +3,8 @@ import React from "react";
 export default function SelectForm({onchange}){
     return(
         <div>
-          <div className="week-container">
-            <div className="category-form">
+          <div className="week-container">            
             <form >
-              <label className="category-select" ></label>
                 <select className="select-week" name="week" id="week" onChange={onchange}>
                   <option value="week1">Week 01 - Intro to the School of Code Way</option>
                   <option value="week2">Week 02 - Fundamentals of programming with JavaScript</option>
@@ -24,8 +22,7 @@ export default function SelectForm({onchange}){
                   <option value="week8">Week 16 - Final Project Finish | COMING SOON!</option>
                   <option value="week8">Week 17 - Career Launchpad | COMING SOON!</option>
                 </select>
-              </form>
-            </div>
+              </form>            
           </div>
         </div>
     )
