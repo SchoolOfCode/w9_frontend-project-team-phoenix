@@ -8,19 +8,30 @@
 
 :root {                                      
     --background-colour: #03045E;
+
     --content-header-colour: #2a1585;
+
     --content-text-colour: #4a4949;
+
     --button-colour: #30AC05;
+
     --info-container-colour: #dddddd;
-    --light-colour: #dddddd;
+
+    --light-colour: #ffffff;
+
     --container-link-colour: #121212;
+
     --instructions-colour: #121212;
+
     --link-colour: #F87F25;
+
     --docs-link-colour: rgb(214, 159, 41);
-    --header-size: 24px;
-    --main-text-size: 18px;                   
-    --border-radius: 10px;
+
     --help-link-colour: rgba(255, 85, 0, 0.87);
+
+    --header-border-colour: #00E8FC;
+
+    --box-shadow-colour: rgba(0,0,0,0.32);
 }
   
 body {
@@ -90,7 +101,7 @@ body {
 }
 
 .help-link:hover {
-    color: rgb(255, 250, 250);
+    color: var(--light-colour);
     text-decoration: none;
 }
 
@@ -198,7 +209,7 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: var(--light-colour);
     text-decoration: none;
 }
 

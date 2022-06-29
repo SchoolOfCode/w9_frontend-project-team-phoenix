@@ -37,7 +37,7 @@ export default function Contact(){
                     </div>
                 </div>
             </div>
-            <div className="contact-text-2nd">
+            <div className="contact-company-details ">
                 <p><strong>Remote Learning!</strong></p><p>
                 Covid-19 hit us half way through our third bootcamp, and we had to immediately learn the ins and outs of learning remotely.
 

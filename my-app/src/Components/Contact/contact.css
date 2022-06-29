@@ -1,19 +1,11 @@
-/* COLOURS
-#F5E6E8
-#9E0031
-#00E8FC
-#432597
-#F96E46
-*/ 
 .contact-header {
-    border-top: 5px #F5E6E8;
     margin-top: 20px;
     padding: 15px;
     text-align: center;
-    color: white;
+    color: var(--light-colour);
     font-size: 30px;
-    border-top: 2px solid #00E8FC;
-    border-bottom: 2px solid #00E8FC;
+    border-top: 2px solid var(--header-border-colour);
+    border-bottom: 2px solid var(--header-border-colour);
 }
 
 .contact-box {
@@ -26,12 +18,12 @@
     height: 250px;
     width: 500px;
     border-radius: 5px;
-    box-shadow: 12px 5px 13px 1px rgba(0,0,0,0.32);
+    box-shadow: 12px 5px 13px 1px var(--box-shadow-colour);
 }
 
 .contact-name {
     margin-top: 60px;
-    color: #F5E6E8;
+    color: var(--light-colour);
     font-size: 20px;
 }
 
@@ -42,12 +34,12 @@
 .contact-address-details {   
     margin-top: -15px;
     padding-left: 50px; 
-    color: #00E8FC
+    color: var(--header-border-colour);
 }
 
 .contact-text {
     margin-top: 50px;
-    color: white;
+    color: var(--light-colour);
     display: flex;
     flex-direction: column;
     margin-left: 150px;
@@ -56,10 +48,9 @@
     font-weight: 100;
 }
 
-
-.contact-text-2nd {
+.contact-company-details {
     margin-top: 10px;
-    color: white;
+    color: var(--light-colour);
     display: flex;
     flex-direction: column;
     margin-left: 150px;
