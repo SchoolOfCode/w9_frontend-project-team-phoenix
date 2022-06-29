@@ -1,5 +1,5 @@
 
-export default function List({ data }){
+export default function DisplayResource({ data }){
     if(data.contact_id === null){
         return(
         <div className="main-container">

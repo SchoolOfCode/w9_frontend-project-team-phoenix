@@ -1,7 +1,7 @@
 
 import Header from '../Header';
 import SelectForm from '../SelectForm';
-import Main from '../Main';
+import Main from '../ResourceSelector';
 import Footer from '../Footer';
 import {useState, useEffect} from "react";
 
