@@ -7,7 +7,7 @@
     margin-top: 50px;  
 }
 
-.form{
+.feedback-form{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,14 +20,13 @@
     margin-top: 30px;
 }
 
-.name-container{
+.fullname-container{
     display: flex;
     justify-content: center;
 }
 
-.bootcamper-name{
-    align-self: center;
-    color: var(--light-colour);
+.name-label {
+    color: var(--light-colour);    
 }
 
 .name{
@@ -51,9 +50,10 @@
     border-radius: 10px;
 }
 
-.feedback{
+.feedback-prompt {
     color: var(--light-colour);
     font-size: 25px;
+    
 }
 .button-container{
     display: flex;
@@ -74,7 +74,7 @@
     align-items: center;
     font-size: 20px;
 }
-
+    
 .button:hover{
     color: var(--button-hover-colour);
     text-decoration: none;
@@ -87,12 +87,12 @@
     align-items: center;
 }
 
-h1{
+.feedback-reply {
     justify-content: center;
     color: var(--light-colour);
 }
 
-.h1-feedback {
+.feedback-title {
     justify-content: center;    
     color: var(--light-colour);
     font-size: 25px;
