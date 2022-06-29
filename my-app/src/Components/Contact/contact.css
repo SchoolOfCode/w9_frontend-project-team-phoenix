@@ -8,13 +8,13 @@
     border-bottom: 2px solid var(--header-border-colour);
 }
 
-.contact-box {
+.contact-box-container {
     display: flex;
     flex-direction: row;   
     justify-content: space-evenly
 }
 
-.schoolofcode-image {   
+.schoolofcode-contact-image {   
     height: 250px;
     width: 500px;
     border-radius: 5px;
@@ -27,7 +27,7 @@
     font-size: 20px;
 }
 
-.contact-address {
+.contact-address-container {
     padding: 50px;
 }
 

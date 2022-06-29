@@ -22,9 +22,9 @@ export default function Contact(){
                 <p>So far, we've achieved an average of 85% employment from our previous cohorts (including during the COVID-19 pandemic). But, more important than stats, we've helped people completely change their lives for the better.
                 </p>
             </div>
-            <div className="contact-address">
-                <div className="contact-box">
-                    <img className="schoolofcode-image" src={schoolofcode} alt="School of Code"></img>
+            <div className="contact-address-container">
+                <div className="contact-box-container">
+                    <img className="schoolofcode-contact-image" src={schoolofcode} alt="School of Code"></img>
 
                     <div className="contact-address-details">
                     <p className="contact-name">School Of Code</p>
