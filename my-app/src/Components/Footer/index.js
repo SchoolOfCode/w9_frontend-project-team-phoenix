@@ -9,11 +9,13 @@ export default function Footer(){
             <div className="footer">
                 <div className="social">
                     <SocialMediaIconsReact className="icons" borderColor="rgba(255, 85, 0, 0.87)" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="transparent" url="https://twitter.com/theSchoolOfCode" size="38" />
+                    <p>---</p>
                     <SocialMediaIconsReact className="icons" borderColor="rgba(255, 85, 0, 0.87)" icon="facebook" iconColor="rgba(255,255,255,1)" backgroundColor="transparent" url="https://www.facebook.com/schoolofcode/" size="38" />
+                    <p>---</p>
                     <SocialMediaIconsReact borderColor="transpraent" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="transparent" url="https://www.linkedin.com/school/school-of-code/" size="38" />
                 </div>
             <p className="copyright">© Copyright Phoenix Group 2022 | All rights reserved | In Association with School of Code</p>
-            <p className="feedback-link"><a href={`/feedback`}>feedback</a></p>
+            <p><a href={`/feedback`} className="feedback-link">feedback</a></p>
         </div>
         </div>
         </>

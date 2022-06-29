@@ -21,21 +21,22 @@ body {
     background: var(--background-colour);
 }
 
-.top {    
+.header-container {    
     display: flex;
     justify-content:space-evenly;
 }
 
-.links {    
+.links-container {    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header-content {    
     display: flex;    
 }
 
-.logo {    
+.team-logo {    
     display: flex;
     width: 120px;
     height: 100px;
@@ -44,7 +45,7 @@ body {
     margin-left: 0px;
 }
 
-.soclogo {    
+.soc-logo {    
     display: flex;
     width: 120px;
     height: 100px;
@@ -53,7 +54,7 @@ body {
     margin-left: 10px;
 }
 
-.header {
+.app-header {
     display: flex; 
     background-color: var(--light-colour);
     padding: 10px 20px 20px 20px;
@@ -65,7 +66,15 @@ body {
     margin-top: 30px;
 }
 
-.help-link {
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--docs-link-colour);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.header-nav-link {
     color: var(--help-link-colour); 
     display: flex;
     justify-content: center;    
@@ -73,19 +82,11 @@ body {
     padding: 10px;
     margin-right: 10px;
     font-weight: bold;
-}
-
-.instructions {
-    display: flex;
-    justify-content: center;     
-    color: var(--instructions-colour);
-    align-items: center;
-    font-weight: 100;
-}
-
-.help-link:hover {
-    color: var(--light-colour);
     text-decoration: none;
+}
+
+.header-nav-link:hover {
+    color: var(--light-colour);   
 }
 
 .category-select {
@@ -155,13 +156,6 @@ body {
     font-size: 20px;    
 }
 
-.link {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--docs-link-colour);
-    text-decoration: underline;
-    font-size: 20px;
-}
 
 .footercontainer {   
     width:100%;
@@ -186,6 +180,7 @@ body {
     color: var(--light-colour);
 }
 
+/*
 a {
     color: var(--help-link-colour);
     text-decoration: none;
@@ -195,6 +190,7 @@ a:hover {
     color: var(--light-colour);
     text-decoration: none;
 }
+*/
 
 .feedback-link {
     margin-right: 50px;
@@ -203,11 +199,16 @@ a:hover {
     border: 1px solid var(--light-colour);
     border-radius: 5px;
     font-weight: bold;
+    color: var(--help-link-colour); 
+    text-decoration: none;
+}
+
+.feedback-link:hover {
+     color: var(--light-colour);   
 }
 
 .social {
     margin-left: 20px;
-    color: var(--link-colour);
     display: flex;
     flex-direction: row;
     justify-content: center;
