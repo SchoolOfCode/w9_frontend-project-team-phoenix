@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import List from "../List";
+import DisplayResource from ".";
 
 describe("Checking information from api is rendered correctly depending on prop", () => {
   test("Checks whether the list component is rendered correctly for useful links", () => {
@@ -25,7 +25,7 @@ describe("Checking information from api is rendered correctly depending on prop"
     };
 
     //Act
-    render(<List data={data} />);
+    render(<DisplayResource data={data} />);
     const mainheading = screen.getByText("Useful links");
     const subheading = screen.getAllByText("The shapes of css");
     const maincontent = screen.getByText(
@@ -61,7 +61,7 @@ describe("Checking information from api is rendered correctly depending on prop"
     };
 
     //Act
-    render(<List data={data} />);
+    render(<DisplayResource data={data} />);
     const name = screen.getByText("Chris Meah");
     const description = screen.getByText("SOC CEO");
     const twitter = screen.getByText("https://twitter.com/TheMeahCat");

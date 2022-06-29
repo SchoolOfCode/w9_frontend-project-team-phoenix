@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";
-import Nav from ".";
+import SelectForm from ".";
 
 describe("Checking whether the user input dropdown renders and works correctly", () => {
   test("Checking functionality", () => {
@@ -11,7 +11,7 @@ describe("Checking whether the user input dropdown renders and works correctly",
     const userSelect = "week1";
 
     //Act
-    render(<Nav />);
+    render(<SelectForm />);
     userEvent.selectOptions(screen.getByRole("combobox"), userSelect);
 
     //Assert
@@ -22,11 +22,3 @@ describe("Checking whether the user input dropdown renders and works correctly",
     ).toBe(true);
   });
 });
-
-// test("check whether addToList function is called when button is clicked", function () {
-//     const addToList = jest.fn();
-//     render(<AddItem addToList={addToList}/>)
-//     const button = screen.getByRole("button")
-//     userEvent.click(button);
-//     expect(addToList).toHaveBeenCalled();
-// });
