@@ -1,42 +1,19 @@
-/* COLOURS
-#F5E6E8
-#9E0031
-#00E8FC
-#432597
-#F96E46
-*/ 
-
 :root {                                      
     --background-colour: #03045E;
-
     --content-header-colour: #2a1585;
-
     --content-text-colour: #4a4949;
-
     --button-colour: #30AC05;
-
     --info-container-colour: #dddddd;
-
     --light-colour: #ffffff;
-
     --container-link-colour: #121212;
-
     --instructions-colour: #121212;
-
     --link-colour: #F87F25;
-
     --docs-link-colour: rgb(214, 159, 41);
-
     --help-link-colour: rgba(255, 85, 0, 0.87);
-
     --header-border-colour: #00E8FC;
-
     --box-shadow-colour: rgba(0,0,0,0.32);
-
     --button-hover-colour: #000000;
-
     --form-background-colour: #2676ac;
-
     --form-border-colour: rgb(178, 213, 245);
 }
   
@@ -84,7 +61,7 @@ body {
     color: var(--content-text-colour);
     margin-left: 100px;
     margin-right: -70px;
-    box-shadow: 18px 11px 19px 1px rgba(0,0,0,0.32);
+    box-shadow: 18px 11px 19px 1px var(--box-shadow-colour);
     margin-top: 30px;
 }
 
