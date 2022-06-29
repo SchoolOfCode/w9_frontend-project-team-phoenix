@@ -5,8 +5,20 @@ h1 {
     font-size: 40px
 }
 
+.faq-header {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    color: var(--light-colour);
+    font-size: 30px;
+    border-top: 2px solid var(--header-border-colour);
+    border-bottom: 2px solid var(--header-border-colour);
+}
+
+
 .faq-heading {
     font-size: 30px;
+    color: var(--light-colour);
 }
 
 .faq-question {

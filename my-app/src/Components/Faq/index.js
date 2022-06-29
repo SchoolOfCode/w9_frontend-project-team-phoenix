@@ -4,12 +4,12 @@ import Header from "../Header"
 import "./index.css";
 
 
-export default function Help(){
+export default function Faq(){
 
     return(
         <>
         <Header />
-        <div className="contact-header">
+        <div className="faq-header">
             <p className="contact-welcome">Welcome to the Bootcamp Buddy <strong>FAQ Page</strong></p>
         </div>
 
