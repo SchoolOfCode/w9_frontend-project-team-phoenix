@@ -1,8 +1,5 @@
 import React from "react";
 
-//Nav Component -
-//contains dropdown and submit button 
-
 export default function SelectForm({onchange}){
     return(
         <div>
@@ -27,7 +24,6 @@ export default function SelectForm({onchange}){
                   <option value="week8">Week 16 - Final Project Finish | COMING SOON!</option>
                   <option value="week8">Week 17 - Career Launchpad | COMING SOON!</option>
                 </select>
-                {/* <input className="submit-button" type="submit" value="Submit"></input> */}
               </form>
             </div>
           </div>
