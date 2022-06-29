@@ -1,7 +1,7 @@
 import './App.css';
 import HelpCamper from '../HelpCamper';
 import Home from '../Home';
-import Help from '../Help';
+import Faq from '../Faq';
 import Feedback from '../Feedback';
 import Contact from '../Contact';
 import {
@@ -41,7 +41,7 @@ function App() {
   
     <Switch>
       <Route path="/help">
-        <Help />
+        <Faq />
       </Route>
     </Switch>
     <Switch>
