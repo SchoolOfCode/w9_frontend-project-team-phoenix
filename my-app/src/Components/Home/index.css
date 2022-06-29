@@ -69,6 +69,6 @@
 }
 
 .home-button:hover{
-    color: black;
+    color: var(--button-hover-colour);
     text-decoration: none;
 }
