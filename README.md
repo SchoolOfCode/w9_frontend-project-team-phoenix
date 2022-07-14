@@ -67,7 +67,6 @@ The reason for this being we manually separated the port numbers our front and b
 - Complete feedback form so it pushes to backend database
 
 # Authors
-- [@RussellVentura](https://www.github.com/russellventura)
 - [@AbdullahiMohamoud](https://github.com/Abdu11ahi)
 - [@KhulvimdaMall](https://github.com/KhullyMall)
 - [@Min-Chih Yang](https://github.com/Min-Chih)
